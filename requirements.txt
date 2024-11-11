@@ -1,0 +1,6 @@
+gradio
+PyPDF2
+tqdm
+python-dotenv
+edge-tts
+openai==0.28.0
