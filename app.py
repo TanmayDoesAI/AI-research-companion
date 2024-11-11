@@ -104,12 +104,11 @@ with gr.Blocks(theme=custom_theme) as app:
         gr.Markdown("""
 
         ## Project Background
-        This project was initially implemented during the Smart India Hackathon (SIH) to address a real struggle I faced: managing the overwhelming flow of research papers and effectively understanding each one. The intensity of this process highlighted how valuable an AI-powered solution could be, not just for me but for others facing similar challenges in academia. By using large language models, this tool aims to make academic material more accessible and manageable, converting dense research into an audio format that’s easier to consume. And with the power of AI, I hope that this tool can transform the way we learn and engage with academic content.
+        This project started during the Smart India Hackathon (SIH) as a solution to a challenge I personally faced—keeping up with the overwhelming influx of research papers. Realizing how intense and time-consuming this was, I thought an AI-driven tool could make academic content more accessible. By leveraging large language models, this tool converts dense research into easily understandable audio, offering an easier way for everyone to engage with academic material.
 
-        Development is still ongoing, with plans to integrate web search capabilities and explore additional TTS engines to enhance usability. Special thanks to [yasserrmd](https://huggingface.co/spaces/yasserrmd/NotebookLlama) for inspiring the structured prompts that drive this project forward.
+        Development is ongoing, with future plans to add web search and additional TTS options for a richer experience. Special thanks to  [yasserrmd](https://huggingface.co/spaces/yasserrmd/NotebookLlama) inspiring the structured prompts behind this project.
                     
-        This AI Research Companion is crafted to bridge the gap between research and accessibility, turning in-depth research papers into audio podcasts for easier, on-the-go learning.
-        This page allows users to upload their research papers in PDF format to initiate the conversion process.
+        This AI Research Companion bridges the gap between research and accessibility, transforming detailed papers into podcasts for more convenient, on-the-go learning. Just upload a PDF to start the conversion.
         """)
         
         with gr.Row():
