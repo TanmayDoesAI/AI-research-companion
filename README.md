@@ -1,15 +1,3 @@
----
-title: Research Companion
-emoji: 🏢
-colorFrom: pink
-colorTo: red
-sdk: gradio
-sdk_version: 5.5.0
-app_file: app.py
-pinned: false
-short_description: AI tool turning Academic papers into podcasts
----
-
 # AI Research Companion - Transforming Research Papers into Podcasts
 
 ## Overview
